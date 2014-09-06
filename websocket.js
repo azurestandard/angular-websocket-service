@@ -16,7 +16,7 @@ var websocketModule = angular
         var parse_message = function (msg) {
             var topic, body, parts;
             parts = msg.split(" ", 1);
-            topic = parts[0];
+            topic = parts[0].toLowerCase();
             body = JSON.parse(msg.substring(topic.length + 1));
             return {"topic": topic, "body": body};
         };
