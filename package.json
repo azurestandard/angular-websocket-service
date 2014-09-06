@@ -1,6 +1,6 @@
 {
 	"name": "angular-websocket-service",
-	"version": "0.1.2",
+	"version": "0.2.0",
 	"main": "websocket",
 	"description": "Event-less JSON WebSocket service for AngularJS",
 	"homepage": "https://github.com/azurestandard/angular-websocket-service",
