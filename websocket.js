@@ -63,7 +63,6 @@ var websocketModule = angular
             if (!('exact' in options)) {
                 options.exact = false;
             }
-            topic = topic.toLowerCase();
             if (!wrapped_websocket.listeners[topic]) {
                 wrapped_websocket.listeners[topic] = [];
             }
